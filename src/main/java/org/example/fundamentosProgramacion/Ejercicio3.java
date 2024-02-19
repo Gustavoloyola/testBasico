@@ -9,7 +9,7 @@ public class Ejercicio3 {
         System.out.println("Ingresa un numero:");
         int num=sc.nextInt();
 
-        if (num%2  != 0){
+        if (num%2  != 0 && num==2){
             System.out.println("El numero " + num +" es primo");
 
         }else{

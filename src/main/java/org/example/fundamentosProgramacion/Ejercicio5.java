@@ -16,6 +16,11 @@ public class Ejercicio5 {
             System.out.println(n);
         }
 
+        int size=numerosOrden.length;
+        System.out.println("El tamaño del arreglo es: "+size);
+        System.out.println("el mayor es:"+numerosOrden[size-1]);
+        System.out.println(" ");
+
       int numeroMayor= Arrays.stream(numerosOrden).max().getAsInt();
         System.out.println("El numero mayor es:");
         System.out.println(numeroMayor);
